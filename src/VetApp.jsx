@@ -8,7 +8,7 @@ function VetApp() {
 
   return (
     <BrowserRouter>
-    <VetRoutes/>
+      <VetRoutes/>
     </BrowserRouter>
   )
 }
