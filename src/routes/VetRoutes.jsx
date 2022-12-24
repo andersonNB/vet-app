@@ -1,12 +1,21 @@
 import {Routes, Route} from 'react-router-dom';
-import { LoginPage } from "../shared/components/auth"
-;
+import {HomePage} from "../public/pages";
+import { LoginPage } from "../shared/components/auth";
+import { Navbar, Footer} from "../shared/components";
+
 
 const VetRoutes = () => {
   return (
-    <Routes>
-        <Route path="/" element={<LoginPage/> } />
-    </Routes>
+    <>
+     
+
+      <Routes>
+            <Route path="/" element={<HomePage/> } />
+            <Route path="/login" element={<LoginPage/>}/>
+       </Routes>
+
+       
+    </>
   )
 }
 
