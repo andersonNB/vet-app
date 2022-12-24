@@ -7,8 +7,6 @@ import { Navbar, Footer} from "../shared/components";
 const VetRoutes = () => {
   return (
     <>
-     
-
       <Routes>
             <Route path="/" element={<HomePage/> } />
             <Route path="/login" element={<LoginPage/>}/>
