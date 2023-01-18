@@ -6,7 +6,7 @@ import logoQuery from '../../../../assets/LOGOAIPRUEBA.png'
 export const LoginPage = () => {
 	return (
 		<>
-      <div className="container fondoImage text-center">
+      <div className="container backgroundImage text-center">
         <div  className="row align-items-center justify-content-center vh-100">
           <div className="col-sm-12 col-md-6 col-12">
               <form className="formLogin">
