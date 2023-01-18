@@ -27,8 +27,8 @@ export const LoginPage = () => {
 
 	return (
 		<>
-      <div className="container fondoImage text-center" style={{minHeight:"100vh", maxWidth:"100%"}}>
-        <div  className="row align-items-center justify-content-center">
+      <div className="container backgroundImage text-center">
+        <div  className="row align-items-center justify-content-center vh-100">
           <div className="col-sm-12 col-md-6 col-12">
               <form className="formLogin">
               <h3>Iniciar Sesión</h3>
