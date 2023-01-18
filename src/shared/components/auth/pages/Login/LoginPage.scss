@@ -1,8 +1,10 @@
 .fondoImage{
-    background-image: url('../../../../assets/field2.jpg');
+    background-image: url('../../../../../assets/field2.jpg');
     background-position: center center;
     background-size: cover;
     object-fit: cover;
+    resize: both;
+    overflow: hidden;
 }
 
 
@@ -12,11 +14,12 @@
     border-radius: 10px;
     border: 1px solid rgba(255,255,255,0.18);
     box-shadow: 0 8px 32px rgba(31,38,135,0.37);
+    margin:45px;
     padding: 10px;
 }
 
 .loginDogImage{
-    height:38.5rem;
+    height:34.1rem;
     filter: drop-shadow(0 0 0.75rem #EBBE98);
 }
 
@@ -42,10 +45,6 @@
         display: none;
     }
 
-}
-
-@media (max-width: 767px){
-
     .loginAiTemporal{
         display:block;
         margin: 0 auto;
@@ -54,6 +53,10 @@
     }
 
     .fondoImage{
-        max-width: 100%;
+        max-width: 100% !important;
     }
+    .row{
+        margin-right: 0;
+    }
+
 }
