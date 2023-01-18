@@ -1,9 +1,30 @@
 import { Link } from "react-router-dom";
 import './LoginPage.scss'
-import loginDog from '../../../../assets/loginDog.png';
-import logoQuery from '../../../../assets/LOGOAIPRUEBA.png'
+// import loginDog from '../../../../assets/loginDog.png';
+import loginDog2 from '../../../../../assets/loginDog2.svg';
+import logoQuery from '../../../../../assets/LOGOAIPRUEBA.png'
+import { useEffect, useState } from "react";
+import { SvgComponentLogin } from "../../../../other/SvgComponentLogin";
 
 export const LoginPage = () => {
+
+  const [width, setWidth] = useState(window.innerWidth)
+  const [height, setHeight] = useState(window.innerHeight)
+ 
+  useEffect(() => {
+    console.log("w: ", width);
+    console.log("y: ", window.innerHeight);
+
+    window.addEventListener("resize",()=>{
+      setWidth(window.innerWidth);
+      setHeight(window.innerHeight);
+    })
+
+    
+  },[width,height])
+  
+
+
 	return (
 		<>
       <div className="container backgroundImage text-center">
@@ -41,7 +62,8 @@ export const LoginPage = () => {
               </form>
           </div>
           <div className="col-md-6 col-6">
-            <img src={loginDog} className="loginDogImage" loading="lazy"/>
+            {/* <img src={loginDog2} className="loginDogImage" loading="lazy"/> */}
+            <SvgComponentLogin width={width} height={height}/>  
           </div>
           <div className="col-sm-12">
             <img src={logoQuery} className="loginAiTemporal" loading="lazy"/>
