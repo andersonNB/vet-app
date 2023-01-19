@@ -1,11 +1,13 @@
 
 import { BodyComponent } from "../..";
+import { Navbar } from "../../../shared/components/Navbar/Navbar";
 import img from "./../../../assets/cd2.png";
 import "./home.scss";
 
 const HomePage = () => {
   return (
     <>
+    <Navbar/>
       <div className="container mt-3">
         <div className="row d-flex align-items-center">
           <div className=" col-md-6 col-sm-12 column-1 align-items-center">

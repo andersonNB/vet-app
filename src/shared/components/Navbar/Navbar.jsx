@@ -4,7 +4,7 @@ import "./navbar.scss";
 
 export const Navbar = () => {
   return (
-    <nav className="navbar w-100">
+    <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
         <a className="navbar-brand">
           <img src={logoPrueba} alt="logoPrueba" width="30" height="24" />
