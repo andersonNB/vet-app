@@ -1,4 +1,4 @@
-export const SvgComponentLogin = ({width, height = "617"}) => {
+export const SvgComponentLogin = () => {
 	return (
 		<svg
 			version="1.1"

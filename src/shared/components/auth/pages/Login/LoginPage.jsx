@@ -1,34 +1,14 @@
 import { Link } from "react-router-dom";
 import './LoginPage.scss'
-// import loginDog from '../../../../assets/loginDog.png';
-import loginDog2 from '../../../../../assets/loginDog2.svg';
 import logoQuery from '../../../../../assets/LOGOAIPRUEBA.png'
-import { useEffect, useState } from "react";
 import { SvgComponentLogin } from "../../../../other/SvgComponentLogin";
 
 export const LoginPage = () => {
 
-  const [width, setWidth] = useState(window.innerWidth)
-  const [height, setHeight] = useState(window.innerHeight)
- 
-  useEffect(() => {
-    console.log("w: ", width);
-    console.log("y: ", window.innerHeight);
-
-    window.addEventListener("resize",()=>{
-      setWidth(window.innerWidth);
-      setHeight(window.innerHeight);
-    })
-
-    
-  },[width,height])
-  
-
-
 	return (
 		<>
-      <div className="container backgroundImage text-center">
-        <div  className="row align-items-center justify-content-center vh-100">
+      <div className="container backgroundImage text-center" style={{minHeight:"100vh", maxWidth:"100%"}}>
+        <div  className="row align-items-center justify-content-center">
           <div className="col-sm-12 col-md-6 col-12">
               <form className="formLogin">
               <h3>Iniciar Sesión</h3>
@@ -63,7 +43,7 @@ export const LoginPage = () => {
           </div>
           <div className="col-md-6 col-6">
             {/* <img src={loginDog2} className="loginDogImage" loading="lazy"/> */}
-            <SvgComponentLogin width={width} height={height}/>  
+            <SvgComponentLogin />
           </div>
           <div className="col-sm-12">
             <img src={logoQuery} className="loginAiTemporal" loading="lazy"/>
