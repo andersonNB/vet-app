@@ -21,7 +21,7 @@ const HomePage = () => {
               ¡Quiero saber más!
             </button>
           </div>
-          <div className="col-md-6 col-sm column-2">
+          <div className="col-md-6 col-sm-12 column-2">
             <img src={img} alt="" />
           </div>
         </div>
