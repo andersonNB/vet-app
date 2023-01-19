@@ -29,11 +29,12 @@
 
 
 .inputText{
+    border: 1px solid rgba(0, 0, 0, 0.637);
     margin: auto;
     width: 70%;
 }
 
-.forgotPassword{
+.forgotPassword, .goHome{
     display: block;
     text-decoration: none;
     color: white;
