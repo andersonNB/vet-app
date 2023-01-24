@@ -14,6 +14,9 @@ export const Navbar = () => {
             to="/login"
             className="btn btn-warning login_button"
             type="submit"
+            style={{
+              zIndex: "1"
+            }}
           >
             Iniciar Sesión
           </Link>
