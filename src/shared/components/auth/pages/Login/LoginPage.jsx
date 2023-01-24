@@ -34,7 +34,7 @@ export const LoginPage = () => {
                   />
                 </div>
                 
-                  <button type="submit" className="btn btn-primary">
+                  <button type="submit" className="btn btn-primary" style={{zIndex: "1"}}>
                     Iniciar Sesión
                   </button>
                   <Link to="#" className="forgotPassword">¿Olvide mi contraseña?</Link>

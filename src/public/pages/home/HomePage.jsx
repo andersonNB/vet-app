@@ -1,5 +1,5 @@
 
-import { BodyComponent } from "../..";
+import { BodyComponent, Footer } from "../..";
 import { Navbar } from "../../../shared/components/Navbar/Navbar";
 import img from "./../../../assets/cd2.png";
 import "./home.scss";
@@ -27,6 +27,7 @@ const HomePage = () => {
         </div>
       </div>
       <BodyComponent />
+      <Footer />
     </>
   );
 };
