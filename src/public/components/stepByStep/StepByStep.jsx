@@ -1,20 +1,22 @@
 import React from 'react'
+import img from '../../../assets/register.png';
+import './stepByStep.scss';
 
 const StepByStep = () => {
   return (
-    <div className="container">
-      <div className="row row-body d-flex">
+    <div className="container" id="stepByStep">
+      <div className="row row-body-step d-flex row-one">
         <div className="col-md-6 col-sm-12 text-center">
-          <img className="mt-5" src={img} alt="dogs&catsQR" />
+          <img src={img} alt="form" />
         </div>
-        <div className="col-md-6 col-sm-12  mt-5">
-          <h2 className="text-center">¿Qué hacemos en vetApp?</h2>
-          <p className="m-3">Somos la opción más innovadora del mercado actual, aquí te contamos el por qué:</p>
+        <div className="col-md-6 col-sm-12  mt-5 text-light row-two">
+          <h2 className="text-center h2-step">Como comenzar con VetAPP</h2>
           <ul className="text-justify">
-            <p className="li">🐾 Porque podrás tener los datos de tus mascotas online</p>
-            <p className="li">🐾 Porque podras portar en todas partes y a toda hora información veterinaria relevante</p>
-            <p className="li">🐾 Futuramente cosas como el seguro de tus peluditos podrá estar aquí</p>
-            <p className="li">🐾 Podrás estar seguro de que tu mascota siempre encontrará el camino a casa gracias a vetApp</p>
+            <p className="li">1️⃣ Crea una cuenta 📝</p>
+            <p className="li">2️⃣ Después de creada la cuenta, registra a tu peludito 🐶😻</p>
+            <p className="li">3️⃣ Cuando tu peludito este registrado, puedes mandar a pedir tu placa personalizada🪪</p>
+            <p className="li">4️⃣ Terminados los pasos anteriores, tu placa llegará hasta tu hogar🤩💌</p>
+            <p className="li">5️⃣ Llegada la placa podrás ingresar datos relevantes de peludito y siempre contar que la tecnología de vetApp te ayudará.</p>
           </ul>
         </div>
       </div>

@@ -19,14 +19,27 @@
     object-fit: contain;
     border-radius: 10px;
   }
-}
 
-.row-body {
+  .row-body {
     color: black;
 }
 
 .li {
   margin-bottom: 2px;
+}
+
+.parragraph {
+text-align: justify;
+}
+
+.h2-body {
+font-family: var(--font-titles);
+font-weight: bolder;
+}
+
+p {
+  font-family: var(--font-text-p);
+}
 }
 
 .whatsapp {

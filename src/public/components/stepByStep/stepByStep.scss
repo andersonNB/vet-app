@@ -1,0 +1,41 @@
+/* abstracts */
+@import "./../../../shared/scss/abstracts/variables";
+
+
+#stepByStep {
+    min-width: 100%;
+    border-style: dotted;
+    border-width: 5px 0px 0px 0px;
+    border-top-color: var(--body-color); 
+    border-bottom-color: none;   
+}
+
+.container {
+    img {
+      max-width: 100%;
+      max-height: 70%;
+      margin-top: 2rem;
+      image-rendering: optimizeSpeed;
+      object-fit: contain;
+      border-radius: 10px;
+    }
+    .row-body-step {
+        height: 40%;
+    }
+    .row-two {
+        margin-top: 1.75rem !important;
+    }
+
+    .h2-step {
+        font-family: var(--font-titles);
+    }
+
+    ul {
+        padding-left: 1rem;
+    }
+
+  }
+
+p {
+    margin-bottom: 1rem;
+}
