@@ -1,5 +1,6 @@
 import {Link} from "react-router-dom";
 import ImageRegister from "../../../../../assets/verify.png";
+import Sticker from "../../../../../assets/sticker.png";
 import "./RegisterPage.scss";
 
 export const RegisterPage = () => {
@@ -10,12 +11,13 @@ export const RegisterPage = () => {
 				style={{minHeight: "100vh", maxWidth: "100%"}}
 			>
 				<div className="row align-items-center justify-content-center">
-					<div className="col-sm-12 col-md-6 col-12">
+					<div className="col-sm-12 col-md-6">
 						<form className="formLogin">
-							<p>Empieza Gratis</p>
-							<h3 style={{fontWeight:"900"}}>Crear nueva cuenta</h3>
+							<img src={Sticker} alt="RegistePage" className="sticker" />
+							{/* <p>Gratis</p> */}
+							<h3 style={{fontWeight: "900"}}>Crear nueva cuenta</h3>
 							<div className="row">
-								<div className="col-6">
+								<div className="col-sm-12 col-md-6">
 									<div className="InputForm">
 										<input
 											type="text"
@@ -26,7 +28,7 @@ export const RegisterPage = () => {
 										/>
 									</div>
 								</div>
-								<div className="col-6">
+								<div className="col-sm-12 col-md-6">
 									<div className="InputForm">
 										<input
 											type="text"
@@ -37,38 +39,45 @@ export const RegisterPage = () => {
 										/>
 									</div>
 								</div>
-							</div>
-							<div className="InputForm">
-								<input
-									type="email"
-									className="form-control inputText"
-									id="exampleInputEmail1"
-									aria-describedby="emailHelp"
-									placeholder="Correo Electronico"
-									style={{width: "100%"}}
-								/>
-							</div>
-							<div className="InputForm">
-								<input
-									type="password"
-									className="form-control inputText"
-									id="exampleInputPassword2"
-									placeholder="Contraseña"
-									style={{width: "100%"}}
-								/>
-							</div>
-							<div className="InputForm">
-								<input
-									type="password"
-									className="form-control inputText"
-									id="exampleInputPassword1"
-									placeholder="Confirmar Contraseña"
-									style={{width: "100%"}}
-								/>
+
+								<div className="col-sm-12 col-md-12">
+									<div className="InputForm">
+										<input
+											type="email"
+											className="form-control inputText"
+											id="exampleInputEmail1"
+											aria-describedby="emailHelp"
+											placeholder="Correo Electronico"
+											style={{width:"100%"}}
+										/>
+									</div>
+								</div>
+								<div className="col-sm-12 col-md-12">
+									<div className="InputForm">
+										<input
+											type="password"
+											className="form-control inputText"
+											id="exampleInputPassword2"
+											placeholder="Contraseña"
+											style={{width:"100%"}}
+										/>
+									</div>
+								</div>
+								<div className="col-sm-12 col-md-12">
+									<div className="InputForm">
+										<input
+											type="password"
+											className="form-control inputText"
+											id="exampleInputPassword1"
+											placeholder="Confirmar Contraseña"
+											style={{width:"100%"}}
+										/>
+									</div>
+								</div>
 							</div>
 							<div className="row">
-								<div className="col" style={{backgroundColor:"cornflowerblue"}}>
-									<button type="submit" className="btn btn-primary box">
+								<div className="col">
+									<button type="submit" className="btn btn-secondary box">
 										Crear Cuenta
 										<img
 											src={ImageRegister}
@@ -76,8 +85,8 @@ export const RegisterPage = () => {
 										/>
 									</button>
 								</div>
-								<div className="col" style={{backgroundColor:"grey"}}>
-									<button className="btn btn-primary box">
+								<div className="col">
+									<button className="btn btn-secondary box">
 										<Link to="/" className="goHome">
 											Página Inicial
 										</Link>

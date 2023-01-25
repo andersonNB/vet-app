@@ -1,23 +1,59 @@
-
 .box {
-    background: linear-gradient(-45deg, #60efff 0%, #0061ff 100% );
+	// background: linear-gradient(-45deg, #f62020 0%, #e271b8 100%);
+	border: none;
+    box-shadow: 0px 0px 9px black;
 }
 
-
-.backgroundImageRegister{
-    background-image: url('../../../../../assets/paws.png');
-    background-repeat: repeat;
-    background-size: contain;
-    overflow: hidden;
-    width: 100%;
+.backgroundImageRegister {
+	background-image: url("../../../../../assets/paws.png");
+	background-repeat: repeat;
+	background-size: contain;
+	overflow: hidden;
+	width: 100%;
 }
 
+.InputForm {
+	margin: 20px;
 
-.InputForm{
-    margin: 20px;
-
-    .inputText{
-        border-radius: 20px;
-    }
+	.inputText {
+		border-radius: 20px;
+	}
 }
- 
+
+// .formLogin p {
+// 	color: whitesmoke;
+// 	font-family: "Courier" "monospaced";
+// 	font-size: 1em;
+// 	pointer-events: none;
+// 	text-align: left;
+// 	width: 50px;
+//     position: absolute;
+//     z-index: 1;
+//     top: -5px;
+//     left: -3px;
+//     font-weight: 800;
+// }
+
+.sticker {
+	// animation-play-state: paused;
+	// animation: spin 10s linear infinite;
+	height: 90px;
+	position: absolute;
+	width: 90px;
+	top: -9%;
+	left: -4%;
+}
+
+// .sticker:hover {
+// 	animation-play-state: running;
+// }
+
+.goHome:hover {
+	color: white;
+}
+
+// @keyframes spin {
+// 	100% {
+// 		transform: rotate(1turn);
+// 	}
+// }
