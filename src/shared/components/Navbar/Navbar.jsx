@@ -20,12 +20,13 @@ export const Navbar = () => {
           >
             Iniciar Sesión
           </Link>
-          <button
+          <Link
+            to="/register"
             className="btn btn-outline-secondary register_button"
             type="submit"
           >
             Registrate
-          </button>
+          </Link>
         </div>
       </div>
     </nav>
