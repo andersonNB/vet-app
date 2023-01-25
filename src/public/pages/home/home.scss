@@ -16,14 +16,19 @@
   
 
     h1 {
+      margin: 1rem;
       color: var(--title-color-amarillo);
-      font-size: 2.25em;
+      font-size: 2.75rem;
     }
 
     h3 {
-      margin-top: 1em;
+      margin: 1.5rem;
       font-size: 1em;
       color: white;
+    }
+
+    .h3-home {
+      font-family: var(--font-text-p);
     }
 
     button {
@@ -46,4 +51,8 @@
         opacity: 0.85;
       }
   }
+}
+
+.row-homepage {
+  padding: 0;
 }

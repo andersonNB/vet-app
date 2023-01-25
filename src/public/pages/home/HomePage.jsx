@@ -1,5 +1,5 @@
 
-import { BodyComponent, Footer } from "../..";
+import { BodyComponent, Footer, StepByStep } from "../..";
 import { Navbar } from "../../../shared/components/Navbar/Navbar";
 import img from "./../../../assets/cd2.png";
 import "./home.scss";
@@ -9,11 +9,10 @@ const HomePage = () => {
     <>
     <Navbar/>
       <div className="container mt-3">
-        <div className="row d-flex align-items-center">
-          <div className=" col-md-6 col-sm-12 column-1 align-items-center">
+        <div className="row row-homepage d-flex align-items-center">
+          <div className=" col-md-6 col-sm-12 column-1">
             <h1>LA MEJOR OPCIÓN PARA TU AMIGO</h1>
-            <h3>
-              {" "}
+            <h3 className="h3-home">
               Es hora de cuidar de una manera totalmente tecnólogica y
               personalizada a tu compañero de vida.
             </h3>
@@ -27,6 +26,7 @@ const HomePage = () => {
         </div>
       </div>
       <BodyComponent />
+      <StepByStep />
       <Footer />
     </>
   );
