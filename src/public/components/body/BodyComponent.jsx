@@ -5,7 +5,7 @@ import img from "./../../../assets/dpQR.png";
 const BodyComponent = () => {
   return (
     <div id="bodyComponent">
-      <div className="container">
+      <div className="container container-body">
       <div className="row row-body d-flex">
         <div className="col-md-6 col-sm-12  mt-5">
           <h2 className="text-center h2-body">¿Qué hacemos en vetApp?</h2>
