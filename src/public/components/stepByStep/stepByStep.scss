@@ -3,11 +3,11 @@
 
 
 #stepByStep {
-    min-width: 100%;
     border-style: dotted;
     border-width: 5px 0px 0px 0px;
     border-top-color: var(--body-color); 
-    border-bottom-color: none;   
+    border-bottom-color: none;  
+    min-width: 100%; 
 }
 
 .container {
@@ -21,9 +21,16 @@
     }
     .row-body-step {
         height: 40%;
+        width: 99%;
     }
-    .row-two {
-        margin-top: 1.75rem !important;
+    .col-one {
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+    .col-two {
+        margin-top: 10% !important;
     }
 
     .h2-step {
@@ -37,5 +44,5 @@
   }
 
 p {
-    margin-bottom: 1rem;
+    margin-bottom: 0.15rem;
 }
