@@ -11,7 +11,9 @@ export const SvgComponentLogin = () => {
 			viewBox="0 0 700 670"
 			// enableBackground="new 0 0 683 688"
 			xmlSpace="preserve"
-			className="loginDogImage">
+			className="loginDogImage"
+			style={{height: "100vh"}}
+			>
 			<image
 				id="image0"
 				// width={width}

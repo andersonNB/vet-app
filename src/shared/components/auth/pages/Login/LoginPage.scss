@@ -1,63 +1,66 @@
-.backgroundImage{
-    background-image: url('../../../../../assets/field2.jpg');
-    background-position: center center;
-    background-size: cover;
-    object-fit: cover;
-    resize: both;
-    overflow: hidden;
+@import "../../../../../shared/scss/abstracts/variables";
+
+.backgroundImage {
+	background-image: url("../../../../../assets/field2.jpg");
+	background-position: center center;
+	background-size: cover;
+	object-fit: cover;
+	resize: both;
+	overflow: hidden;
 }
 
-
-.formLogin{
-    backdrop-filter: blur(10px);
-    background: rgba(255,255,255,0.30);
-    border-radius: 10px;
-    border: 1px solid rgba(255,255,255,0.18);
-    box-shadow: 0 8px 32px rgba(31,38,135,0.37);
-    margin:45px;
-    padding: 10px;
+.formLogin {
+	backdrop-filter: blur(10px);
+	background: rgba(255, 255, 255, 0.3);
+	border-radius: 10px;
+	border: 1px solid rgba(255, 255, 255, 0.18);
+	box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+	margin: 45px;
+	padding: 10px;
+	font-family: var(--font-general);
+}
+.formLogin a {
+	font-family: var(--font-text-p);
 }
 
-.loginDogImage{
-    height:34.1rem;
-    filter: drop-shadow(0 0 0.75rem #EBBE98);
+.loginDogImage {
+	height: 34.1rem;
+	filter: drop-shadow(0 0 0.75rem #ebbe98);
 }
 
-.loginAiTemporal{
-    display: none;
+.loginAiTemporal {
+	display: none;
 }
 
-
-.inputText{
-    border: 1px solid rgba(0, 0, 0, 0.637);
-    margin: auto;
-    width: 70%;
+.inputText {
+	border: 1px solid rgba(0, 0, 0, 0.637);
+	margin: auto;
+	width: 70%;
 }
 
-.forgotPassword, .goHome{
-    display: block;
-    text-decoration: none;
-    color: white;
+.forgotPassword,
+.goHome {
+	display: block;
+	text-decoration: none;
+	color: white;
 }
 
-@media (max-width: 767px){
+@media (max-width: 767px) {
+	.loginDogImage {
+		display: none;
+	}
 
-    .loginDogImage{
-        display: none;
-    }
+	.loginAiTemporal {
+		display: block;
+		margin: 0 auto;
+		width: 170px;
+		height: 170px;
+	}
 
-    .loginAiTemporal{
-        display:block;
-        margin: 0 auto;
-        width: 170px;
-        height: 170px;
-    }
-
-    .backgroundImage{
-        max-width: 100%;
-    }
-    .row-login{
-        margin-right: 0;
-    }
-
+	.backgroundImage {
+		max-width: 100%;
+	}
+	.row-login {
+		margin-right: 0;
+	}
 }
