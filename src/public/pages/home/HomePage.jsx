@@ -16,9 +16,9 @@ const HomePage = () => {
               Es hora de cuidar de una manera totalmente tecnólogica y
               personalizada a tu compañero de vida.
             </h3>
-            <button type="button" className="btn btn-secondary mt-4">
+            <a href="#vetApp" className="btn btn-secondary mt-4">
               ¡Quiero saber más!
-            </button>
+            </a>
           </div>
           <div className="col-md-6 col-sm-12 column-2">
             <img src={img} alt="" />
