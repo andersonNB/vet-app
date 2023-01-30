@@ -8,7 +8,7 @@ const BodyComponent = () => {
       <div className="container container-body">
       <div className="row row-body d-flex">
         <div className="col-md-6 col-sm-12  mt-5">
-          <h2 className="text-center h2-body">¿Qué hacemos en vetApp?</h2>
+          <h2 className="text-center h2-body" id="vetApp">¿Qué hacemos en vetApp?</h2>
           <p className="m-3 parragraph">Somos la opción más innovadora del mercado actual, aquí te contamos el por qué:</p>
           <ul className="text-justify">
             <p className="li">🐾 Porque podrás tener los datos de tus mascotas online.</p>
