@@ -9,7 +9,7 @@
     border-top-color: black;
     color: white;
 }
-.container-body .image {
+.bodyComponent__container .bodyComponent__container--image {
   opacity: 1;
   display: block;
   width: 100%;
@@ -29,7 +29,7 @@
   text-align: center;
 }
 
-.container:hover .image {
+.container:hover .bodyComponent__container--image {
   opacity: 0.3;
 }
 
@@ -44,7 +44,7 @@
   margin-top: -80%;
 
 }
-.whatsapp {
+.bodyComponent--whatsapp {
     position:fixed;
     width:60px;
     height:60px;
@@ -58,6 +58,6 @@
     z-index:100;
   }
   
-  .whatsapp-icon {
+  .bodyComponent--whatsapp-icon {
     margin-top:25.25%;
   }

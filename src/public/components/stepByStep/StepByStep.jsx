@@ -5,12 +5,12 @@ import './stepByStep.scss';
 const StepByStep = () => {
   return (
     <div className="container" id="stepByStep">
-      <div className="row row-body-step d-flex row-one">
+      <div className="row rowBodyStep d-flex row-one">
         <div className="col-md-6 col-sm-12 text-center col-one">
           <img src={img} alt="form" />
         </div>
         <div className="col-md-6 col-sm-12  mt-5 text-light col-two">
-          <h2 className="text-center h2-step">Como comenzar con VetAPP</h2>
+          <h2 className="text-center rowBodyStep--h2-step">Como comenzar con VetAPP</h2>
           <ul className="text-justify">
             <p className="li">1️⃣ Crea una cuenta 📝</p>
             <p className="li">2️⃣ Después de creada la cuenta, registra a tu peludito 🐶😻</p>
