@@ -1,0 +1,14 @@
+/* abstracts */
+@import './shared/scss/abstracts/variables';
+
+
+html{
+    margin: 0;
+    padding: 0;
+    // width: 100vw;
+}
+
+body {
+    background-color: var(--base-color);
+   
+}

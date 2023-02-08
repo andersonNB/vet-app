@@ -1,0 +1,14 @@
+/* abstracts */
+@import "./../../../shared/scss/abstracts/variables";
+
+.navbar {
+    background-color: var(--base-color);
+    margin-top: 0;
+    position: absolute;
+    top:0;
+    width: 100%;
+}
+
+.login_button {
+    margin: 0 0.5rem 0 -15rem;
+}

@@ -1,0 +1,62 @@
+/* abstracts */
+@import "./../../../shared/scss/abstracts/variables";
+
+#bodyComponent {
+    margin-top: 2.5rem;
+    background-color: var(--body-color);
+    width: 100%;
+    border-style: dotted;
+    border-top-width: 5px;
+    border-top-color: black;
+    color: white;
+}
+
+.container-body {
+  img {
+    max-width: 100%;
+    max-height: 75%;
+    image-rendering: optimizeSpeed;
+    object-fit: contain;
+    border-radius: 10px;
+  }
+
+  .row-body {
+    color: black;
+    width: 100%;
+}
+
+.li {
+  margin-bottom: 2px;
+}
+
+.parragraph {
+text-align: justify;
+}
+
+.h2-body {
+font-family: var(--font-titles);
+font-weight: bolder;
+}
+
+p {
+  font-family: var(--font-text-p);
+}
+}
+
+.whatsapp {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:5%;
+    right:6.5%;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+  }
+  
+  .whatsapp-icon {
+    margin-top:25.25%;
+  }
