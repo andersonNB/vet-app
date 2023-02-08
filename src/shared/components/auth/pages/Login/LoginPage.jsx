@@ -39,10 +39,10 @@ export const LoginPage = () => {
 							>
 								Iniciar Sesión
 							</button>
-							<Link to="#" className="forgotPassword">
+							<Link to="#" className="formLogin__forgotPassword">
 								¿Olvide mi contraseña?
 							</Link>
-							<Link to="/" className="goHome">
+							<Link to="/" className="formLogin__goHome">
 								Página Inicial
 							</Link>
 						</form>

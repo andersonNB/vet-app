@@ -1,13 +1,13 @@
 /* abstracts */
 @import "./../../../shared/scss/abstracts/variables";
 
-.container {
+.containerHome {
   min-height: 100px;
   padding: 0px;
 
  
 
-  .column-1 {
+  .rowHomepage--column-1 {
     font-family: var(--font-general);
     text-align: center;
     align-items: center;
@@ -44,7 +44,7 @@
     }
   }
 
-  .column-2 {
+  .rowHomepage--column-2 {
     padding-left: 1.65rem;
     img {
         opacity: 0.85;
@@ -52,7 +52,7 @@
   }
 }
 
-.row-homepage {
+.containerHome__row  {
   padding: 0;
   width: 100%;
 }
