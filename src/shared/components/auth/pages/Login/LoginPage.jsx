@@ -2,6 +2,7 @@ import {Link} from "react-router-dom";
 import "./LoginPage.scss";
 import logoQuery from "../../../../../assets/LOGOAIPRUEBA.png";
 import {SvgComponentLogin} from "../../../../other/SvgComponentLogin";
+import {ForgotPassword} from "../ForgotPassword/ForgotPassword";
 
 export const LoginPage = () => {
 	return (
@@ -10,7 +11,10 @@ export const LoginPage = () => {
 				className="container backgroundImage text-center"
 				style={{minHeight: "100vh", maxWidth: "100%"}}
 			>
-				<div className="row row-login align-items-center justify-content-center" style={{height: "100vh"}}>
+				<div
+					className="row row-login align-items-center justify-content-center"
+					style={{height: "100vh"}}
+				>
 					<div className="col-sm-12 col-md-6 col-12">
 						<form className="formLogin">
 							<h3>Iniciar Sesión</h3>
@@ -39,13 +43,12 @@ export const LoginPage = () => {
 							>
 								Iniciar Sesión
 							</button>
-							<Link to="#" className="forgotPassword">
-								¿Olvide mi contraseña?
-							</Link>
+
 							<Link to="/" className="goHome">
 								Página Inicial
 							</Link>
 						</form>
+						<ForgotPassword />
 					</div>
 					<div className="col-md-6 col-6" style={{height: "100vh"}}>
 						{/* <img src={loginDog2} className="loginDogImage" loading="lazy"/> */}
