@@ -1,5 +1,5 @@
 
-import { BodyComponent, Footer, StepByStep } from "../..";
+import { BodyComponent, Footer, StepByStep, ButtonRgb } from "../..";
 import { Navbar } from "../../../shared/components/Navbar/Navbar";
 import img from "./../../../assets/cd2.png";
 import "./home.scss";
@@ -16,9 +16,10 @@ const HomePage = () => {
               Es hora de cuidar de una manera totalmente tecnólogica y
               personalizada a tu compañero de vida.
             </h3>
-            <a href="#vetApp" className="btn btn-secondary mt-4 mb-2">
+            < ButtonRgb />
+{/*             <a href="#vetApp" className="btn btn-secondary mt-4 mb-2">
               ¡Quiero saber más!
-            </a>
+            </a> */}
           </div>
           <div className="col-md-6 col-sm-12 rowHomepage--column-2">
             <img src={img} alt="" />

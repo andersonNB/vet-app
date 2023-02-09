@@ -1,0 +1,63 @@
+
+.pButtonRgb {
+    margin: 0 auto 10px;
+    width: 10rem;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .pButtonRgb::before {
+    content: attr(content);
+    position: absolute;
+    width: 345px;
+    height: 45px;
+    z-index: 1;
+    color:white;
+    background-color: #232020;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+  }
+  
+  .pButtonRgb::after {
+    content: "";
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    border-radius: 50px;
+    background: conic-gradient(
+      #5523eb 0%12.5%,
+      #ffff 12.5%25%,
+      #F6ECCD 25%37.5%,
+      #F6C344 37.5%50%,
+      #5523eb 50%62.5%,
+      #ffff 62.5%75%,
+      #F6ECCD 75%87.5%,
+      #F6C344 87.5%100%
+    );
+    animation: border-animation 5s linear infinite;
+    -webkit-animation: border-animation 5s linear infinite;
+  }
+  
+  @keyframes border-animation {
+    to {
+      transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+    }
+  }
+  
