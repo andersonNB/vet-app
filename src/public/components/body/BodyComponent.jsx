@@ -1,6 +1,6 @@
 import React from "react";
 import "./body.scss";
-import img from "./../../../assets/dogsandcats2.png";
+import img from "./../../../assets/dogsandcats2.jpg";
 
 const BodyComponent = () => {
   return (
