@@ -12,7 +12,7 @@ export const RegisterPage = () => {
 			>
 				<div className="row align-items-center justify-content-center">
 					<div className="col-sm-12 col-md-6">
-						<form className="formLogin">
+						<form className="formRegister">
 							<img src={Sticker} alt="RegistePage" className="sticker" />
 							{/* <p>Gratis</p> */}
 							<h3 style={{fontWeight: "900"}}>Crear nueva cuenta</h3>
@@ -48,7 +48,7 @@ export const RegisterPage = () => {
 											id="exampleInputEmail1"
 											aria-describedby="emailHelp"
 											placeholder="Correo Electronico"
-											style={{width:"100%"}}
+											style={{width: "100%"}}
 										/>
 									</div>
 								</div>
@@ -59,7 +59,7 @@ export const RegisterPage = () => {
 											className="form-control inputText"
 											id="exampleInputPassword2"
 											placeholder="Contraseña"
-											style={{width:"100%"}}
+											style={{width: "100%"}}
 										/>
 									</div>
 								</div>
@@ -70,7 +70,7 @@ export const RegisterPage = () => {
 											className="form-control inputText"
 											id="exampleInputPassword1"
 											placeholder="Confirmar Contraseña"
-											style={{width:"100%"}}
+											style={{width: "100%"}}
 										/>
 									</div>
 								</div>

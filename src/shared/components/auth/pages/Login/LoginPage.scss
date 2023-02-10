@@ -10,15 +10,28 @@
 }
 
 .formLogin {
+	background-color: #eee9e5;
+	margin: 20px;
+	padding: 20px;
+	border: 1px solid rgba(255, 255, 255, 0.18);
+	border-radius: 10px;
+}
+
+.formRegister {
 	backdrop-filter: blur(10px);
 	background: rgba(255, 255, 255, 0.3);
 	border-radius: 10px;
 	border: 1px solid rgba(255, 255, 255, 0.18);
 	box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
-	margin: 45px;
-	padding: 10px;
 	font-family: var(--font-general);
 }
+
+.row--button {
+	height: 50px;
+	width: 200px;
+	border-radius: 20px;
+}
+
 .formLogin a {
 	font-family: var(--font-text-p);
 }
@@ -42,7 +55,11 @@
 .goHome {
 	display: block;
 	text-decoration: none;
-	color: white;
+	color: black;
+}
+
+.goHome:hover {
+	color: black !important;
 }
 
 @media (max-width: 767px) {
