@@ -13,8 +13,7 @@ const HomePage = () => {
           <div className=" col-md-6 col-sm-12 rowHomepage--column-1">
             <h1>LA MEJOR OPCIÓN PARA TU AMIGO</h1>
             <h3 className="h3-home">
-              Es hora de cuidar de una manera totalmente tecnólogica y
-              personalizada a tu compañero de vida.
+              Es hora de cuidar de una manera totalmente tecnológica y personalizada a tu compañero de vida.
             </h3>
             < ButtonRgb />
 {/*             <a href="#vetApp" className="btn btn-secondary mt-4 mb-2">
