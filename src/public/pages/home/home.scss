@@ -1,13 +1,11 @@
 /* abstracts */
 @import "./../../../shared/scss/abstracts/variables";
 
-.container {
+.containerHome {
   min-height: 100px;
   padding: 0px;
 
- 
-
-  .column-1 {
+  .rowHomepage--column-1 {
     font-family: var(--font-general);
     text-align: center;
     align-items: center;
@@ -35,24 +33,20 @@
         color: var(--title-color-amarillo);
     }
 
-    img {
-        width: 12em;
-        height: 10em;
-        display: flex;
-        margin-left: 1em;
-        //margin-top: 12em;
-    }
   }
 
-  .column-2 {
+  .rowHomepage--column-2 {
     padding-left: 1.65rem;
     img {
         opacity: 0.85;
+        width: 100%;
+        height: 60%;
+        display: flex;
       }
   }
 }
 
-.row-homepage {
+.containerHome__row  {
   padding: 0;
   width: 100%;
 }

@@ -12,7 +12,7 @@ export const Navbar = () => {
         <div className="d-flex">
           <Link
             to="/login"
-            className="btn btn-warning login_button"
+            className="btn btn-warning navbar__login_button"
             type="submit"
             style={{
               zIndex: "1"
