@@ -10,7 +10,7 @@ export const RegisterPage = () => {
 				className="backgroundImageRegister text-center"
 				style={{minHeight: "100vh", maxWidth: "100%"}}
 			>
-				<div className="row align-items-center justify-content-center">
+				<div className="row align-items-center justify-content-center rowFormRegister">
 					<div className="col-sm-12 col-md-6">
 						<form className="formRegister">
 							<img src={Sticker} alt="RegistePage" className="sticker" />
