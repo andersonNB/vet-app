@@ -2,6 +2,7 @@
 	// background: linear-gradient(-45deg, #f62020 0%, #e271b8 100%);
 	border: none;
     box-shadow: 0px 0px 9px black;
+	height: 100px;
 }
 
 .backgroundImageRegister {
@@ -10,6 +11,8 @@
 	background-size: contain;
 	overflow: hidden;
 	width: 100%;
+	display: flex;
+	justify-content: center;
 }
 
 .InputForm {
@@ -34,6 +37,11 @@
 //     font-weight: 800;
 // }
 
+.rowFormRegister {
+	display: flex;
+	margin-top: auto auto;
+}
+
 .sticker {
 	// animation-play-state: paused;
 	// animation: spin 10s linear infinite;
@@ -44,10 +52,20 @@
 	left: -4%;
 }
 
+.backgroundImageRegister button {
+	height: 3rem;
+	margin-bottom: 0.5rem;
+}
+
+
 // .sticker:hover {
 // 	animation-play-state: running;
 // }
 
+.goHome {
+text-decoration: none;
+color: white;
+}
 .goHome:hover {
 	color: white;
 }
