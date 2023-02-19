@@ -4,14 +4,13 @@ import "./ForgotPassword.scss";
 export const ForgotPassword = () => {
 	return (
 		<div>
-			<a
+			<button
 				className="btn btn-primary row--button"
 				data-bs-toggle="modal"
 				data-bs-target="#exampleModal"
-				style={{fontSize: "2.5vh", lineHeight: "30px"}}
 			>
 				¿Olvide mi contraseña?
-			</a>
+			</button>
 			<div
 				className="modal fade"
 				id="exampleModal"
