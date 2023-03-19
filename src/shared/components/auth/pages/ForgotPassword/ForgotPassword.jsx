@@ -47,7 +47,7 @@ export const ForgotPassword = () => {
 									<input
 										type="password"
 										className="form-control inputText"
-										id="exampleInputPassword1"
+										id="NewForgotPassword"
 									/>
 								</div>
 								<div className="mb-3">
@@ -55,7 +55,7 @@ export const ForgotPassword = () => {
 									<input
 										type="password"
 										className="form-control inputText"
-										id="exampleInputPassword1"
+										id="RepeatForgotPassword"
 									/>
 								</div>
 							</form>

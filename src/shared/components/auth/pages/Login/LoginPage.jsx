@@ -1,8 +1,8 @@
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./LoginPage.scss";
 import logoQuery from "../../../../../assets/LOGOAIPRUEBA.png";
-import {SvgComponentLogin} from "../../../../other/SvgComponentLogin";
-import {ForgotPassword} from "../ForgotPassword/ForgotPassword";
+import { SvgComponentLogin } from "../../../../other/SvgComponentLogin";
+import { ForgotPassword } from "../ForgotPassword/ForgotPassword";
 
 export const LoginPage = () => {
 	const onSubmit = (e) => {
@@ -14,14 +14,14 @@ export const LoginPage = () => {
 		<>
 			<div
 				className="container backgroundImage text-center"
-				style={{minHeight: "100vh", maxWidth: "100%"}}
+				style={ { minHeight: "100vh", maxWidth: "100%" } }
 			>
 				<div
 					className="row row-login align-items-center justify-content-center"
-					style={{height: "100vh"}}
+					style={ { height: "100vh" } }
 				>
 					<div className="col-sm-12 col-md-6 col-12">
-						<form className="formLogin" onSubmit={onSubmit}>
+						<form className="formLogin" onSubmit={ onSubmit }>
 							<h3>Iniciar Sesión</h3>
 							<div className="mb-3">
 								<label className="form-label">Correo:</label>
@@ -40,23 +40,24 @@ export const LoginPage = () => {
 									id="exampleInputPassword1"
 								/>
 							</div>
-							<div className="container text-center containerRow ">
-								<div className="row containerRow__row">
-									<div className="col-5 offset-md-1">
-										<div className="m-4">
-											<button
-												type="submit"
-												className="btn btn-primary row--button "
-												style={{zIndex: "1"}}
-											>
-												Iniciar Sesión
-											</button>
-										</div>
+							{/* <div className="container text-center containerRow ">
+
+							</div> */}
+							<div className="row formLogin__rowButtonsLogin">
+								<div className="col-auto" >
+									<div className="m-4">
+										<button
+											type="submit"
+											className="btn btn-primary row--button "
+											style={ { zIndex: "1" } }
+										>
+											Iniciar Sesión
+										</button>
 									</div>
-									<div className="col-5">
-										<div className="m-4">
-											<ForgotPassword />
-										</div>
+								</div>
+								<div className="col-auto" >
+									<div className="m-4">
+										<ForgotPassword />
 									</div>
 								</div>
 							</div>
@@ -68,11 +69,11 @@ export const LoginPage = () => {
 							</div>
 						</form>
 					</div>
-					<div className="col-md-6 col-6" style={{height: "100vh"}}>
+					<div className="col-md-6 col-6" style={ { height: "100vh" } }>
 						<SvgComponentLogin />
 					</div>
 					<div className="col-sm-12">
-						<img src={logoQuery} className="loginAiTemporal" loading="lazy" />
+						<img src={ logoQuery } className="loginAiTemporal" loading="lazy" />
 					</div>
 				</div>
 			</div>

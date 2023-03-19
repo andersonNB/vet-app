@@ -58,6 +58,18 @@
 	color: black;
 }
 
+.formLogin__rowButtonsLogin {
+	// background-color: aquamarine;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 5px;
+}
+
+.goHome {
+	color: black !important;
+}
+
 .goHome:hover {
 	color: black !important;
 }
@@ -79,5 +91,11 @@
 	}
 	.row-login {
 		margin-right: 0;
+	}
+}
+
+@media (max-width: 395px) {
+	.formLogin__rowButtonsLogin {
+		margin-left: -10px;
 	}
 }
