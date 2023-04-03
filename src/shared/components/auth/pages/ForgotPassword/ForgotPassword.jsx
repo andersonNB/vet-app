@@ -1,11 +1,11 @@
 import React from "react";
-import "./ForgotPassword.scss";
 
 export const ForgotPassword = () => {
 	return (
 		<div>
 			<button
 				className="btn btn-primary row--button"
+				style={ { backgroundColor: '#ffc107', borderColor: '#ffc107', color: 'black' } }
 				data-bs-toggle="modal"
 				data-bs-target="#exampleModal"
 			>

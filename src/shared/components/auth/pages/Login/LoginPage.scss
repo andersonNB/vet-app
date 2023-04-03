@@ -30,6 +30,7 @@
 	height: 50px;
 	width: 200px;
 	border-radius: 20px;
+	font-size: 90%;
 }
 
 .formLogin a {
@@ -68,6 +69,7 @@
 
 .goHome {
 	color: black !important;
+	text-decoration: underline;
 }
 
 .goHome:hover {
@@ -97,5 +99,13 @@
 @media (max-width: 395px) {
 	.formLogin__rowButtonsLogin {
 		margin-left: -10px;
+	}
+}
+
+@media (max-width: 390px) {
+	.row--button {
+		margin-left: -11px;
+		font-size: 15px;
+		width: 50vw;
 	}
 }
