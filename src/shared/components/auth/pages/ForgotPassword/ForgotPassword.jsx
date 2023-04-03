@@ -5,7 +5,7 @@ export const ForgotPassword = () => {
 	return (
 		<div>
 			<button
-				className="btn btn-primary row--button"
+				className="btn btn-primary row--button form__button--password"
 				data-bs-toggle="modal"
 				data-bs-target="#exampleModal"
 			>

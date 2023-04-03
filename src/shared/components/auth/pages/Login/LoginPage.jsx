@@ -40,15 +40,12 @@ export const LoginPage = () => {
 									id="exampleInputPassword1"
 								/>
 							</div>
-							{/* <div className="container text-center containerRow ">
-
-							</div> */}
 							<div className="row formLogin__rowButtonsLogin">
 								<div className="col-auto" >
 									<div className="m-4">
 										<button
 											type="submit"
-											className="btn btn-primary row--button "
+											className="btn btn-primary row--button"
 											style={ { zIndex: "1" } }
 										>
 											Iniciar Sesión

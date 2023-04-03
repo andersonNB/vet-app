@@ -1,19 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap");
 
 :root {
-    /* colors */
-    --base-color: #131212;
-    --title-color-amarillo: #F6ECCD;
-    --body-color: #F9F4E7;
-    /* fonts */
-    --font-general: 'Concert One', cursive;
-    --font-titles: 'Merriweather', serif;
-    --font-text: 'Playfair Display', serif;
-    --font-text-p: 'Nanum Gothic', sans-serif;
+	/* colors */
+	--base-color: #131212;
+	--title-color-amarillo: #f6eccd;
+	--body-color: #f9f4e7;
+	--base-button-color: #ffc107;
+	/* fonts */
+	--font-general: "Concert One", cursive;
+	--font-titles: "Merriweather", serif;
+	--font-text: "Playfair Display", serif;
+	--font-text-p: "Nanum Gothic", sans-serif;
 
-    /*size font global*/
-    font-size: 18px;
+	/*size font global*/
+	font-size: 18px;
 }
